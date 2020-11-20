@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'dotenv'
 Dotenv.load
 
-require 'slack-bot'
+require 'slack_bot'
 require 'web'
 
 Thread.abort_on_exception = true
@@ -11,7 +11,7 @@ Thread.abort_on_exception = true
 Thread.new do
   begin
     SlackBot::Bot.run
-  rescue Exception => e
+  rescue StandardError => e
     warn "ERROR: #{e}"
     warn e.backtrace
     raise e

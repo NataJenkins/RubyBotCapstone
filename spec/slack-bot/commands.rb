@@ -1,3 +1,5 @@
+# rubocop:disable Layout/LineLength
+
 require 'spec_helper'
 
 describe SlackBot::Commands do
@@ -19,3 +21,5 @@ describe SlackBot::Commands do
     expect(message: "#{SlackRubyBot.config.user} alo", channel: 'channel').to respond_with_slack_message("Sorry <@user>, I don't understand that command!")
   end
 end
+
+# rubocop:enable Layout/LineLength
