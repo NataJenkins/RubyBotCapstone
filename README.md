@@ -4,7 +4,7 @@
 
 Ruby Capstone: Slack bot
 
-![screenshot](./app_screenshot.png)
+
 
 Additional description about the project and its features.
 
@@ -14,9 +14,12 @@ Additional description about the project and its features.
 - Visual Code Studio
 
 ### Prerequisites
-- Create a Slack workspace in: [Slack create](https://slack.com/create#email)
+- Create a Slack workspace
 
 - Create a new Slack APP in: [Slack create app](https://api.slack.com/apps?new_app=1)
+  ![screenshot](./assets/new-bot.jpg)
+- Make sure to Save your Api Token
+  ![screenshot](./assets/bot-api.jpg)
 
 ### Setup
 - Clone or downoad this repository
@@ -25,6 +28,7 @@ Additional description about the project and its features.
 - Run bundle install
 - Create a .env file with your Slack Api token.
   - SLACK_API_TOKEN = your API Key
+  - ![screenshot](./assets/.env.jpg)
 ### Usage
 - Go to the root folder
 - Run foreman start
