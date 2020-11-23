@@ -8,6 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    ast (2.4.1)
     celluloid (0.17.3)
       celluloid-essentials
       celluloid-extras
@@ -49,6 +50,9 @@ GEM
     minitest (5.10.1)
     multipart-post (2.0.0)
     nio4r (2.0.0)
+    parallel (1.19.2)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
     public_suffix (2.0.5)
     puma (3.8.2)
     rack (1.6.5)
@@ -56,7 +60,10 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rainbow (3.0.0)
     rake (12.0.0)
+    regexp_parser (1.8.2)
+    rexml (3.2.4)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -70,6 +77,18 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
+    rubocop (1.1.0)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.5)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8)
+      rexml
+      rubocop-ast (>= 1.0.1)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (1.1.0)
+      parser (>= 2.7.1.5)
+    ruby-progressbar (1.10.1)
     safe_yaml (1.0.4)
     sinatra (1.4.8)
       rack (~> 1.5)
@@ -93,6 +112,7 @@ GEM
       hitimes
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    unicode-display_width (1.7.0)
     vcr (3.0.3)
     webmock (3.0.1)
       addressable (>= 2.3.6)
@@ -114,6 +134,7 @@ DEPENDENCIES
   rack-test
   rake
   rspec
+  rubocop
   sinatra
   slack-ruby-bot
   vcr

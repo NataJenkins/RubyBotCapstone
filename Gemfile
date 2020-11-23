@@ -5,6 +5,7 @@ gem 'dotenv'
 gem 'puma'
 gem 'sinatra'
 gem 'slack-ruby-bot'
+gem 'rubocop'
 
 group :development, :test do
   gem 'foreman'
