@@ -30,8 +30,9 @@ Additional description about the project and its features.
 - Run foreman start
 - Go to your slack channel and talk to the bot
 - Commands:
-  - Hello
-  - Bye
+  - Hello (Bot says Hi)
+  - Bye (Bot says Bye)
+  - daily-img (Bot gives the photo of the day form national geographic)
 
 ### Run tests
 - Go to the project root folder
