@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+Ruby Capstone: Slack bot
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,32 +10,32 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+- Ruby
+- Visual Code Studio
 
 ### Prerequisites
+- Create a Slack workspace in: [Slack create](https://slack.com/create#email)
+
+- Create a new Slack APP in: [Slack create app](https://api.slack.com/apps?new_app=1)
 
 ### Setup
-
+- Clone or downoad this repository
 ### Install
-
+- Go to the root folder of the project
+- Run bundle install
+- Create a .env file with your Slack Api token.
+  - SLACK_API_TOKEN = your API Key
 ### Usage
+- Go to the root folder
+- Run foreman start
+- Go to your slack channel and talk to the bot
+- Commands:
+  - Hello
+  - Bye
 
 ### Run tests
+- Go to the project root folder
+- Run rspec
 
 ### Deployment
 
@@ -45,15 +45,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@NataJenkins](https://github.com/NataJenkins)
+- Twitter: [@NataJenkins](https://twitter.com/NataJenkins)
+- Linkedin: [linkedin Profile](https://www.linkedin.com/in/natalia-macias-a11a20187/)
 
 ## 🤝 Contributing
 
