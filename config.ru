@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'dotenv'
 Dotenv.load
 
-require_relative './bin/slack_bot'
+require_relative './bin/main'
 require_relative 'web'
 
 Thread.abort_on_exception = true
