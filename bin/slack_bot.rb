@@ -1,0 +1,5 @@
+require 'slack-ruby-bot'
+require_relative '../lib/commands/hello.rb'
+require_relative '../lib/commands/bye'
+require_relative '../lib/commands/image'
+require_relative '../lib/bot'
