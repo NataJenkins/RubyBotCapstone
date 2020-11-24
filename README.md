@@ -4,9 +4,11 @@
 
 Ruby Capstone: Slack bot
 
-
-
-Additional description about the project and its features.
+Slack bot builded with ruby. 
+You can add this bot to your slack workspace an it responds to some commands:
+-Hello (Bot replies "Hello, im a Ruby bot!")
+-Bye (Bot replies "Good bye")
+-daily-img ("Bot gives you a link to the photo of the day from National Geographic")
 
 ## Built With
 
