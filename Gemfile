@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 gem 'celluloid-io'
 gem 'dotenv'
 gem 'puma'
+gem 'rubocop'
 gem 'sinatra'
 gem 'slack-ruby-bot'
-gem 'rubocop'
 
 group :development, :test do
   gem 'foreman'
