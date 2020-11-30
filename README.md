@@ -2,40 +2,47 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+Ruby Capstone: Slack bot
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+Slack bot builded with ruby. 
+You can add this bot to your slack workspace an it responds to some commands:
+-Hello (Bot replies "Hello, im a Ruby bot!")
+-Bye (Bot replies "Good bye")
+-daily-img ("Bot gives you a link to the photo of the day from National Geographic")
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+- Ruby
+- Visual Code Studio
 
 ### Prerequisites
+- Create a Slack workspace
+
+- Create a new Slack APP in: [Slack create app](https://api.slack.com/apps?new_app=1)
+  ![screenshot](./assets/new-bot.jpg)
+- Make sure to Save your Api Token
+  ![screenshot](./assets/bot-api.jpg)
 
 ### Setup
-
+- Clone or downoad this repository
 ### Install
-
+- Go to the root folder of the project
+- Run bundle install
+- Create a .env file with your Slack Api token.
+  - SLACK_API_TOKEN = your API Key
+  - ![screenshot](./assets/.env.jpg)
 ### Usage
+- Go to the root folder
+- Run foreman start
+- Go to your slack channel and talk to the bot
+- Commands:
+  - Hello (Bot says Hi)
+  - Bye (Bot says Bye)
+  - daily-img (Bot gives the photo of the day form national geographic)
 
 ### Run tests
+- Go to the project root folder
+- Run rspec
 
 ### Deployment
 
@@ -45,15 +52,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@NataJenkins](https://github.com/NataJenkins)
+- Twitter: [@NataJenkins](https://twitter.com/NataJenkins)
+- Linkedin: [linkedin Profile](https://www.linkedin.com/in/natalia-macias-a11a20187/)
 
 ## 🤝 Contributing
 
